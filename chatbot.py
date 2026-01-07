@@ -82,7 +82,7 @@ def query_lm_studio(messages: list) -> tuple[str | None, str]:
 st.set_page_config(page_title="Chat Expert", layout="centered")
 
 # Affiche le nom du modèle
-st.markdown(f"### {MODEL_NAME}")
+st.markdown("### ASSISTANT IA EXPERT DATA")
 
 # Init session
 if "history" not in st.session_state:
