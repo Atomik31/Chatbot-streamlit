@@ -61,7 +61,7 @@ Work locally. Prioritize: Correctness > Performance > Elegance.
 - 3.11+
 - **EVERY function MUST have:**
   - Type hints on parameters AND return type (e.g., `def func(x: str) -> dict:`)
-  - Docstring with Args and Returns (e.g., `"""Load CSV. Args: file_path (str). Returns: dict."""`)
+  - Docstring with Args and Returns (e.g., `'Load CSV. Args: file_path (str). Returns: dict.'`)
   - Try/except around risky operations (file I/O, division, etc.)
   - Input validation (check file exists, correct type, etc.)
 
